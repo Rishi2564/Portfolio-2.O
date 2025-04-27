@@ -13,8 +13,8 @@ const Navbar = () => {
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
             <a href="https://www.linkedin.com/in/rishabh-pradhan-59498a28a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
             <a href="https://github.com/Rishi2564" target="_blank" rel="noopener noreferrer" aria-label="Github"><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/rishabh-pradhan-59498a28a/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
-            <a href="https://www.linkedin.com/in/rishabh-pradhan-59498a28a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaSquareXTwitter /></a>
+            <a href="https://www.instagram.com/realrishabhpradhan/?next=%2F" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
+            <a href="https://x.com/RISHABHPRA18574" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaSquareXTwitter /></a>
         </div>
     </nav>
   )

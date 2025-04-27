@@ -3,6 +3,8 @@ import { FaNodeJs } from "react-icons/fa6"
 import { RiReactjsLine } from "react-icons/ri"
 import { SiMongodb } from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
+import { SiSpringboot } from "react-icons/si";
+
 import {motion } from "framer-motion";
 
 const iconVariants=(duration)=>({
@@ -38,6 +40,9 @@ const Technologies = () => {
             </motion.div>
             <motion.div initial="initial" animate="animate" variants={iconVariants(6)} className="p-4">
                 <BiLogoPostgresql className="text-7xl text-sky-700" />
+            </motion.div>
+            <motion.div initial="initial" animate="animate" variants={iconVariants(4)} className="p-4">
+                <SiSpringboot className="text-7xl text-green-400" />
             </motion.div>
         </motion.div>
     </div>

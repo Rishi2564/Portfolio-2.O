@@ -11,7 +11,7 @@ const iconVariants=(duration)=>({
     initial:{y:-10},
     animate:{
         y:[10,-10],
-        tansition:{
+        transition:{
             duration: duration,
             ease:"linear",
             repeat:Infinity,
